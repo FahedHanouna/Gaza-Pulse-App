@@ -26,8 +26,9 @@
   ## 📱 App Screenshots
 
 <p align="center">
-  <img src="[app/src/main/screen1.png](https://github.com/user-attachments/assets/458ac888-fccb-4ac4-91b4-4b0c822cf061)" width="250" title="Home Screen">
-</p>
+  <img src="https://github.com/user-attachments/assets/13eb9974-7406-4171-b110-7d03324e001d" width="280" alt="Home Screen"/>
+ />
+
 
 ---
 
