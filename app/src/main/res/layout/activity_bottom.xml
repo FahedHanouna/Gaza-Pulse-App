@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvMapTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Takaful Map"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#032F2F"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <RelativeLayout
+        android:id="@+id/mapContainer"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#E0E0E0"
+        android:padding="16dp"
+        android:layout_below="@id/tvMapTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Live Status Network"
+            android:textColor="#555555"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/ivGoToProfile"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="12dp"
+            android:src="@android:drawable/ic_menu_myplaces"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <Button
+            android:id="@+id/btnBakeryPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bakery (Active)"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/btnWaterPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water (Closed)"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"/>
+
+        <Button
+            android:id="@+id/btnUserLocation"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="📍 Me"
+            android:textStyle="bold"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/btnFoodPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Food (Active)"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btnPowerPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Power (Closed)"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnOfflineSync"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Offline Data Sync"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#032F2F"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="12dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnOfflineSync"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="#032F2F"
+        app:tint="#FFFFFF"
+        android:contentDescription="إضافة منشور جديد" />
+
+</RelativeLayout>

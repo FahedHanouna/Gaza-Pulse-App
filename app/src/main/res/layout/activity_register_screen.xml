@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvRegisterTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="#D32F2F"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join Gaza Pulse Community Network"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
+
+            <EditText
+                android:id="@+id/etRegisterName"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Full Name"
+                android:textColor="#212121"
+                android:textColorHint="#757575"
+                android:inputType="textPersonName"
+                android:background="@android:color/transparent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
+
+            <EditText
+                android:id="@+id/etRegisterUsername"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Username"
+                android:textColor="#212121"
+                android:textColorHint="#757575"
+                android:inputType="text"
+                android:background="@android:color/transparent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
+
+            <EditText
+                android:id="@+id/etRegisterEmail"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Email Address"
+                android:textColor="#212121"
+                android:textColorHint="#757575"
+                android:inputType="textEmailAddress"
+                android:background="@android:color/transparent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
+
+            <EditText
+                android:id="@+id/etRegisterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Password"
+                android:textColor="#212121"
+                android:textColorHint="#757575"
+                android:inputType="textPassword"
+                android:background="@android:color/transparent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp">
+
+            <EditText
+                android:id="@+id/etRegisterBirthDate"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:hint="Birth Date (YYYY-MM-DD)"
+                android:textColor="#212121"
+                android:textColorHint="#757575"
+                android:focusable="false"
+                android:clickable="true"
+                android:inputType="none"
+                android:background="@android:color/transparent"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Register"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="#D32F2F"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvGoToLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Login"
+            android:textColor="#1976D2"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
