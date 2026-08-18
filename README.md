@@ -23,6 +23,12 @@
 * **Development Environment:** Android Studio
 * **Target OS:** Android (Min SDK: API 21+ / Android 5.0 Lollipop)
 
+  ## 📱 App Screenshots
+
+<p align="center">
+  <img src="[app/src/main/screen1.png](https://github.com/user-attachments/assets/458ac888-fccb-4ac4-91b4-4b0c822cf061)" width="250" title="Home Screen">
+</p>
+
 ---
 
 ## 🚀 Getting Started
